@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.1.0.schema.json
+
+PackageIdentifier: LAMMPS.LAMMPS-USER-BFIELD
+PackageVersion: 2Aug2023
+Installers:
+- Architecture: x64
+  InstallerType: nullsoft
+  InstallerUrl: https://rpm.lammps.org/windows/64bit/LAMMPS-USER-BFIELD-plugin-2Aug2023.exe
+  InstallerSha256: 3C4118C3912B23056FD56899A395F9E695DBA65E223AA0F759D59FD3FC14F782
+  ProductCode: LAMMPS-USER-BFIELD
+ManifestType: installer
+ManifestVersion: 1.1.0
+
